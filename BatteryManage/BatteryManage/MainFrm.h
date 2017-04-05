@@ -10,7 +10,7 @@
 /*
 引用各个图的模板
 */
-#include "InitDialog.h"
+#include "InitDlg.h"
 
 class CMainFrame : public CFrameWnd
 {
@@ -51,7 +51,7 @@ public:
 	virtual BOOL OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext);
 	afx_msg void OnInitDialog();
 
-	CInitDialog *initDialog;		//初始设置窗口
+	CInitDlg *initDlg;		//初始设置窗口
 };
 
 

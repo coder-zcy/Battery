@@ -34,13 +34,13 @@ static UINT indicators[] =
 CMainFrame::CMainFrame()
 {
 	// TODO:  在此添加成员初始化代码
-	initDialog = NULL;
+	initDlg = NULL;
 }
 
 CMainFrame::~CMainFrame()
 {
-	if (initDialog != NULL)
-		delete initDialog;
+	if (initDlg != NULL)
+		delete initDlg;
 }
 
 int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
@@ -155,11 +155,11 @@ void CMainFrame::OnInitDialog()
 	//		return;
 
 	//}
-	if (initDialog == NULL)
+	if (initDlg == NULL)
 	{
-		initDialog = new CInitDialog();
+		initDlg = new CInitDlg();
 	}
-	initDialog->DoModal();
+	initDlg->DoModal();
 	
 	if (IDCANCEL == initResult)
 		return;
