@@ -1,0 +1,2 @@
+#define MAX_SCREEN_NUM 20
+#define MIN_SCREEN_NUM 1

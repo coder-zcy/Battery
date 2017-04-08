@@ -1,8 +1,7 @@
 #pragma once
 #include "afxwin.h"
+#include "InitCopyDlg.h"
 
-#define MAX_SCREEN_NUM 20
-#define MIN_SCREEN_NUM 1
 
 // CScreenDlg ¶Ô»°¿ò
 
@@ -22,9 +21,9 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
+	CInitCopyDlg *copyDlg;
 	CComboBox screenNumCom;
-	
-	
+
 	virtual BOOL OnInitDialog();
 	afx_msg void OnBnClickedScrnump();
 	afx_msg void OnBnClickedScrnumm();

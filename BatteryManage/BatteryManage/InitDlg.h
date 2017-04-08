@@ -5,7 +5,7 @@
 #include "CommDlg.h"
 #include "ColorDlg.h"
 #include "OtherDlg.h"
-#include "UserDlg.h"
+//#include "UserDlg.h"
 
 // CInitDlg ¶Ô»°¿ò
 
@@ -31,7 +31,7 @@ public:
 	CScreenDlg screenDlg;
 	CCommDlg commDlg;
 	CColorDlg colorDlg;
-	CUserDlg userDlg;
+	//CUserDlg userDlg;
 	COtherDlg otherDlg;
 
 

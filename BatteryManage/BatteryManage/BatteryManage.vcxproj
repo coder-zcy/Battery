@@ -107,6 +107,7 @@
     <ClInclude Include="BatteryManageView.h" />
     <ClInclude Include="ColorDlg.h" />
     <ClInclude Include="CommDlg.h" />
+    <ClInclude Include="InitCopyDlg.h" />
     <ClInclude Include="InitDlg.h" />
     <ClInclude Include="LeftPane.h" />
     <ClInclude Include="MainFrm.h" />
@@ -116,7 +117,7 @@
     <ClInclude Include="ScreenDlg.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="UserDlg.h" />
+    <ClInclude Include="BatteryUtils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BatteryManage.cpp" />
@@ -124,6 +125,7 @@
     <ClCompile Include="BatteryManageView.cpp" />
     <ClCompile Include="ColorDlg.cpp" />
     <ClCompile Include="CommDlg.cpp" />
+    <ClCompile Include="InitCopyDlg.cpp" />
     <ClCompile Include="InitDlg.cpp" />
     <ClCompile Include="LeftPane.cpp" />
     <ClCompile Include="MainFrm.cpp" />
@@ -134,7 +136,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="UserDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BatteryManage.rc" />

@@ -5,6 +5,8 @@
 #include "BatteryManage.h"
 #include "ScreenDlg.h"
 #include "afxdialogex.h"
+#include "BatteryUtils.h"
+
 #include <string>
 
 using namespace std;
@@ -83,6 +85,7 @@ BOOL CScreenDlg::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
+	this->copyDlg = NULL;
 	this->screenNumCom.SetCurSel(0);
 	// TODO:  在此添加额外的初始化
 
@@ -113,5 +116,10 @@ void CScreenDlg::OnBnClickedScrnumm()
 
 void CScreenDlg::OnBnClickedParacopy()
 {
-	
+	if (this->copyDlg == NULL)
+	{
+		this->copyDlg = new CInitCopyDlg();
+	}
+
+	this->copyDlg->DoModal();
 }

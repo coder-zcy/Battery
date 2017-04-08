@@ -48,19 +48,22 @@
     <ClInclude Include="ColorDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="OtherDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="ScreenDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CommDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="InitDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="UserDlg.h">
+    <ClInclude Include="InitCopyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BatteryUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -89,19 +92,19 @@
     <ClCompile Include="ColorDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="OtherDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="ScreenDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CommDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="InitDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="UserDlg.cpp">
+    <ClCompile Include="InitCopyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
